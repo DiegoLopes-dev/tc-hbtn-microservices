@@ -1,0 +1,9 @@
+Microsserviços são uma abordagem de arquitetura para a criação de aplicações. Como um framework de arquitetura, microsserviços são distribuídos e levemente acoplados para que as mudanças de uma equipe não corrompam toda a aplicação. A vantagem de usar microsserviços é que as equipes de desenvolvimento conseguem criar rapidamente novos componentes de aplicação para atender às necessidades de negócios em constante mudança
+
+
+
+Devemos usar microserviço quando podemos divididir a aplicaçao em varios endpoints e fazer com que a aplicação completa consuma diversas APIs para fazer as buscas, inserção ou modificação de dados necessaria em cada cenario
+
+A comunicação é feita atravez de requisiçoes HTTP e inserção de endpoint na camada de serviço para que a comunicação seja feita garantindo que os dados esperados estão sendo trafegado de forma correta.
+
+Comunicação sincrona é o fato de uma request aguardar ou depender de um retorno para dar seguimento ao fluxo do serviço, e assincrono é quando não há a real necessidade de ter o retorno em tempo real para seguir o fluxo
